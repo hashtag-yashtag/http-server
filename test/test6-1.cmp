@@ -1,0 +1,12 @@
+--- ./test/test6-1.out.res	2017-10-26 11:11:40.706036579 -0400
++++ ./test/test6-1.org.res	2017-10-26 11:11:40.698036398 -0400
+@@ -0,0 +1,9 @@
++HTTP/1.0 200 OK
++Connection: close
++Content-Length: 108
++Content-Type: text/plain
++
++HTTP:HEADER:Connection=close
++HTTP:HEADER:X-CS252-Testcase=test6-1
++HTTP:METHOD=GET
++HTTP:PATH=/script/echo.sh

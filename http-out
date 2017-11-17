@@ -1,0 +1,32 @@
+Config:
+	Port: (dynamic)
+	Executables directory: script
+	Static directory: static
+	Verbose: true
+	Queue length: 5
+	Mode: linear/iterative
+GET /script/echo.sh HTTP/1.0
+Connection:  close
+
+X-CS252-Testcase:  test6-1
+
+[31msrc/server/Server.cpp:193 in handle(): [0mYou tried to use unimplemented functionality: Step 6: You need to implement ExecScriptController
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+GET /script/echo.sh?a=b&key=value&course=cs252 HTTP/1.0
+[31msrc/server/Server.cpp:193 in handle(): [0mYou tried to use unimplemented functionality: Step 6: You need to implement ExecScriptController
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+[33msrc/server/Server.cpp:170 in handle(): [0mError parsing request: 405 Method Not Allowd
+
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+[33msrc/server/Server.cpp:170 in handle(): [0mError parsing request: 405 Method Not Allowd
+
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+[33msrc/server/Server.cpp:170 in handle(): [0mError parsing request: 405 Method Not Allowd
+
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+[33msrc/server/Server.cpp:170 in handle(): [0mError parsing request: 405 Method Not Allowd
+
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4
+[33msrc/server/Server.cpp:170 in handle(): [0mError parsing request: 405 Method Not Allowd
+
+[32msrc/server/TcpConnection.cpp:29 in ~TcpConnection(): [0mClosing connection on 4

@@ -1,0 +1,18 @@
+--- ./test/test6-3.out.res	2017-10-26 11:11:40.838039559 -0400
++++ ./test/test6-3.org.res	2017-10-26 11:11:40.830039379 -0400
+@@ -1,6 +1,12 @@
+-HTTP/1.0 405 Method Not Allowed
++HTTP/1.0 200 OK
+ Connection: close
+-Content-Length: 28
++Content-Length: 189
+ Content-Type: text/plain
+ 
+-Error while parsing request
++HTTP:BODY:a=b
++HTTP:BODY:course=cs252
++HTTP:BODY:key=value
++HTTP:HEADER:Content-Length=26
++HTTP:HEADER:Content-Type=application/x-www-form-urlencoded
++HTTP:METHOD=POST
++HTTP:PATH=/script/echo.sh

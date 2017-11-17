@@ -1,0 +1,13 @@
+--- ./test/test6-2.out.res	2017-10-26 11:11:40.762037843 -0400
++++ ./test/test6-2.org.res	2017-10-26 11:11:40.758037753 -0400
+@@ -0,0 +1,10 @@
++HTTP/1.0 200 OK
++Connection: close
++Content-Length: 102
++Content-Type: text/plain
++
++HTTP:METHOD=GET
++HTTP:PATH=/script/echo.sh
++HTTP:QUERY:a=b
++HTTP:QUERY:course=cs252
++HTTP:QUERY:key=value

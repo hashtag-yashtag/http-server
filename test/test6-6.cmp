@@ -1,0 +1,8 @@
+--- ./test/test6-6.out.res	2017-10-26 11:11:41.038044075 -0400
++++ ./test/test6-6.org.res	2017-10-26 11:11:41.030043894 -0400
+@@ -1,4 +1,4 @@
+-HTTP/1.0 405 Method Not Allowed
++HTTP/1.0 415 Unsupported Media Type
+ Connection: close
+ Content-Length: 28
+ Content-Type: text/plain

@@ -1,0 +1,8 @@
+--- ./test/test6-7.out.res	2017-10-26 11:11:41.098045429 -0400
++++ ./test/test6-7.org.res	2017-10-26 11:11:41.086045158 -0400
+@@ -1,4 +1,4 @@
+-HTTP/1.0 405 Method Not Allowed
++HTTP/1.0 403 Forbidden
+ Connection: close
+ Content-Length: 28
+ Content-Type: text/plain
